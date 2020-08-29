@@ -6,11 +6,12 @@ namespace PracticeTextRPG
     {
         static void Main(string[] args)
         {
-            Player player = new Knight();
-            Monster monster = new Orc();
+            Game game = new Game();
 
-            int damage = player.GetAttack();
-            monster.OnDamaged(damage);
+            while(true)
+            {
+                game.Process();
+            }
         }
     }
 }

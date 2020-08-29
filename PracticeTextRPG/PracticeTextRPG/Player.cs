@@ -12,12 +12,12 @@ namespace PracticeTextRPG
         Mage = 3
     }
 
-    class Player
+    class Player : Creature
     {
         protected PlayerType type = PlayerType.None;
         
 
-        protected Player(PlayerType type)
+        protected Player(PlayerType type) : base(CreatureType.Player)
         {
             this.type = type;
         }
