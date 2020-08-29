@@ -26,7 +26,7 @@ namespace PracticeTextRPG
     {
         public Slime() : base(MonsterType.Slime)
         {
-            SetInfo(10, 1);
+            SetInfo(10, 10);
         }
     }
 
@@ -34,7 +34,7 @@ namespace PracticeTextRPG
     {
         public Orc() : base(MonsterType.Slime)
         {
-            SetInfo(20, 2);
+            SetInfo(20, 15);
         }
     }
 
@@ -42,7 +42,7 @@ namespace PracticeTextRPG
     {
         public Skeleton() : base(MonsterType.Slime)
         {
-            SetInfo(15, 5);
+            SetInfo(15, 25);
         }
     }
 }
